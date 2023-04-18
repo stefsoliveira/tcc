@@ -38,7 +38,8 @@ def patientScheduling(patients, slots):
             assignment[i][0], assignment[i][1]))
     print("Custo total: {}".format(totalCost))
 
-costs_patient = [[1,1,10],  #patient 1, slot 1 , cost
+
+costs_patient = [[1,1,10],
                  [1,2,10],
                  [1,3,100],
                  [1,4,100],
@@ -284,8 +285,7 @@ costs_patient = [[1,1,10],  #patient 1, slot 1 , cost
                  [25,4,500],
                  [25,5,100],
                  [25,6,100],
-                 [25,7,500],
-                 [25,8,100],
+                 [25,7,500], [25,8,100],
                  [25,9,100],
                  [25,10,100],
                  [26,1,100],
@@ -1037,13 +1037,11 @@ costs_patient = [[1,1,10],  #patient 1, slot 1 , cost
                  [100, 7, 100],
                  [100, 8, 100],
                  [100, 9, 100],
-                 [100, 10, 4]
-                 ]
-
+                 [100, 10, 4]]
 
 beginning = timeit.default_timer()
+
 patientScheduling(costs_patient, 10)
 
 end = timeit.default_timer()
 print('Execution time: %f' % (end - beginning))
-
