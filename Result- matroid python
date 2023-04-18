@@ -1,0 +1,15 @@
+/usr/local/bin/python3.9 /Users/estefane/PycharmProjects/matroides/patients_scheduling_matroids.py 
+O paciente 50 sera alocado no horario 10
+O paciente 94 sera alocado no horario 8
+O paciente 1 sera alocado no horario 1
+O paciente 5 sera alocado no horario 6
+O paciente 8 sera alocado no horario 5
+O paciente 9 sera alocado no horario 9
+O paciente 10 sera alocado no horario 3
+O paciente 11 sera alocado no horario 2
+O paciente 12 sera alocado no horario 7
+O paciente 22 sera alocado no horario 4
+Custo total: 89
+Execution time: 0.003265
+
+Process finished with exit code 0
