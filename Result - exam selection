@@ -1,0 +1,2955 @@
+ampl: reset;
+ampl: include exam_selection.run
+maximize Risk:
+	200*x[1,1] + 200*x[1,2] + 200*x[1,3] + 200*x[1,4] + 200*x[1,5] + 
+	200*x[2,1] + 200*x[2,2] + 200*x[2,3] + 200*x[2,4] + 200*x[2,5] + 
+	500*x[3,1] + 500*x[3,2] + 500*x[3,3] + 500*x[3,4] + 500*x[3,5] + 
+	600*x[4,1] + 600*x[4,2] + 600*x[4,3] + 600*x[4,4] + 600*x[4,5] + 
+	100*x[5,1] + 100*x[5,2] + 100*x[5,3] + 100*x[5,4] + 100*x[5,5] + 
+	400*x[6,1] + 400*x[6,2] + 400*x[6,3] + 400*x[6,4] + 400*x[6,5] + 
+	400*x[7,1] + 400*x[7,2] + 400*x[7,3] + 400*x[7,4] + 400*x[7,5] + 
+	200*x[8,1] + 200*x[8,2] + 200*x[8,3] + 200*x[8,4] + 200*x[8,5] + 
+	400*x[9,1] + 400*x[9,2] + 400*x[9,3] + 400*x[9,4] + 400*x[9,5] + 
+	600*x[10,1] + 600*x[10,2] + 600*x[10,3] + 600*x[10,4] + 600*x[10,5] + 
+	200*x[11,1] + 200*x[11,2] + 200*x[11,3] + 200*x[11,4] + 200*x[11,5] + 
+	600*x[12,1] + 600*x[12,2] + 600*x[12,3] + 600*x[12,4] + 600*x[12,5] + 
+	300*x[13,1] + 300*x[13,2] + 300*x[13,3] + 300*x[13,4] + 300*x[13,5] + 
+	400*x[14,1] + 400*x[14,2] + 400*x[14,3] + 400*x[14,4] + 400*x[14,5] + 
+	100*x[15,1] + 100*x[15,2] + 100*x[15,3] + 100*x[15,4] + 100*x[15,5] + 
+	300*x[16,1] + 300*x[16,2] + 300*x[16,3] + 300*x[16,4] + 300*x[16,5] + 
+	600*x[17,1] + 600*x[17,2] + 600*x[17,3] + 600*x[17,4] + 600*x[17,5] + 
+	700*x[18,1] + 700*x[18,2] + 700*x[18,3] + 700*x[18,4] + 700*x[18,5] + 
+	600*x[19,1] + 600*x[19,2] + 600*x[19,3] + 600*x[19,4] + 600*x[19,5] + 
+	400*x[20,1] + 400*x[20,2] + 400*x[20,3] + 400*x[20,4] + 400*x[20,5] + 
+	600*x[21,1] + 600*x[21,2] + 600*x[21,3] + 600*x[21,4] + 600*x[21,5] + 
+	600*x[22,1] + 600*x[22,2] + 600*x[22,3] + 600*x[22,4] + 600*x[22,5] + 
+	200*x[23,1] + 200*x[23,2] + 200*x[23,3] + 200*x[23,4] + 200*x[23,5] + 
+	600*x[24,1] + 600*x[24,2] + 600*x[24,3] + 600*x[24,4] + 600*x[24,5] + 
+	600*x[25,1] + 600*x[25,2] + 600*x[25,3] + 600*x[25,4] + 600*x[25,5] + 
+	600*x[26,1] + 600*x[26,2] + 600*x[26,3] + 600*x[26,4] + 600*x[26,5] + 
+	300*x[27,1] + 300*x[27,2] + 300*x[27,3] + 300*x[27,4] + 300*x[27,5] + 
+	400*x[28,1] + 400*x[28,2] + 400*x[28,3] + 400*x[28,4] + 400*x[28,5] + 
+	700*x[29,1] + 700*x[29,2] + 700*x[29,3] + 700*x[29,4] + 700*x[29,5] + 
+	100*x[30,1] + 100*x[30,2] + 100*x[30,3] + 100*x[30,4] + 100*x[30,5] + 
+	100*x[31,1] + 100*x[31,2] + 100*x[31,3] + 100*x[31,4] + 100*x[31,5] + 
+	400*x[32,1] + 400*x[32,2] + 400*x[32,3] + 400*x[32,4] + 400*x[32,5] + 
+	200*x[33,1] + 200*x[33,2] + 200*x[33,3] + 200*x[33,4] + 200*x[33,5] + 
+	400*x[34,1] + 400*x[34,2] + 400*x[34,3] + 400*x[34,4] + 400*x[34,5] + 
+	600*x[35,1] + 600*x[35,2] + 600*x[35,3] + 600*x[35,4] + 600*x[35,5] + 
+	500*x[36,1] + 500*x[36,2] + 500*x[36,3] + 500*x[36,4] + 500*x[36,5] + 
+	500*x[37,1] + 500*x[37,2] + 500*x[37,3] + 500*x[37,4] + 500*x[37,5] + 
+	300*x[38,1] + 300*x[38,2] + 300*x[38,3] + 300*x[38,4] + 300*x[38,5] + 
+	500*x[39,1] + 500*x[39,2] + 500*x[39,3] + 500*x[39,4] + 500*x[39,5] + 
+	100*x[40,1] + 100*x[40,2] + 100*x[40,3] + 100*x[40,4] + 100*x[40,5] + 
+	500*x[41,1] + 500*x[41,2] + 500*x[41,3] + 500*x[41,4] + 500*x[41,5] + 
+	600*x[42,1] + 600*x[42,2] + 600*x[42,3] + 600*x[42,4] + 600*x[42,5] + 
+	300*x[43,1] + 300*x[43,2] + 300*x[43,3] + 300*x[43,4] + 300*x[43,5] + 
+	300*x[44,1] + 300*x[44,2] + 300*x[44,3] + 300*x[44,4] + 300*x[44,5] + 
+	100*x[45,1] + 100*x[45,2] + 100*x[45,3] + 100*x[45,4] + 100*x[45,5] + 
+	700*x[46,1] + 700*x[46,2] + 700*x[46,3] + 700*x[46,4] + 700*x[46,5] + 
+	500*x[47,1] + 500*x[47,2] + 500*x[47,3] + 500*x[47,4] + 500*x[47,5] + 
+	300*x[48,1] + 300*x[48,2] + 300*x[48,3] + 300*x[48,4] + 300*x[48,5] + 
+	600*x[49,1] + 600*x[49,2] + 600*x[49,3] + 600*x[49,4] + 600*x[49,5] + 
+	400*x[50,1] + 400*x[50,2] + 400*x[50,3] + 400*x[50,4] + 400*x[50,5] + 
+	500*x[51,1] + 500*x[51,2] + 500*x[51,3] + 500*x[51,4] + 500*x[51,5] + 
+	500*x[52,1] + 500*x[52,2] + 500*x[52,3] + 500*x[52,4] + 500*x[52,5] + 
+	700*x[53,1] + 700*x[53,2] + 700*x[53,3] + 700*x[53,4] + 700*x[53,5] + 
+	700*x[54,1] + 700*x[54,2] + 700*x[54,3] + 700*x[54,4] + 700*x[54,5] + 
+	400*x[55,1] + 400*x[55,2] + 400*x[55,3] + 400*x[55,4] + 400*x[55,5] + 
+	100*x[56,1] + 100*x[56,2] + 100*x[56,3] + 100*x[56,4] + 100*x[56,5] + 
+	200*x[57,1] + 200*x[57,2] + 200*x[57,3] + 200*x[57,4] + 200*x[57,5] + 
+	200*x[58,1] + 200*x[58,2] + 200*x[58,3] + 200*x[58,4] + 200*x[58,5] + 
+	400*x[59,1] + 400*x[59,2] + 400*x[59,3] + 400*x[59,4] + 400*x[59,5] + 
+	400*x[60,1] + 400*x[60,2] + 400*x[60,3] + 400*x[60,4] + 400*x[60,5] + 
+	300*x[61,1] + 300*x[61,2] + 300*x[61,3] + 300*x[61,4] + 300*x[61,5] + 
+	500*x[62,1] + 500*x[62,2] + 500*x[62,3] + 500*x[62,4] + 500*x[62,5] + 
+	200*x[63,1] + 200*x[63,2] + 200*x[63,3] + 200*x[63,4] + 200*x[63,5] + 
+	200*x[64,1] + 200*x[64,2] + 200*x[64,3] + 200*x[64,4] + 200*x[64,5] + 
+	100*x[65,1] + 100*x[65,2] + 100*x[65,3] + 100*x[65,4] + 100*x[65,5] + 
+	400*x[66,1] + 400*x[66,2] + 400*x[66,3] + 400*x[66,4] + 400*x[66,5] + 
+	700*x[67,1] + 700*x[67,2] + 700*x[67,3] + 700*x[67,4] + 700*x[67,5] + 
+	700*x[68,1] + 700*x[68,2] + 700*x[68,3] + 700*x[68,4] + 700*x[68,5] + 
+	300*x[69,1] + 300*x[69,2] + 300*x[69,3] + 300*x[69,4] + 300*x[69,5] + 
+	300*x[70,1] + 300*x[70,2] + 300*x[70,3] + 300*x[70,4] + 300*x[70,5] + 
+	100*x[71,1] + 100*x[71,2] + 100*x[71,3] + 100*x[71,4] + 100*x[71,5] + 
+	600*x[72,1] + 600*x[72,2] + 600*x[72,3] + 600*x[72,4] + 600*x[72,5] + 
+	100*x[73,1] + 100*x[73,2] + 100*x[73,3] + 100*x[73,4] + 100*x[73,5] + 
+	700*x[74,1] + 700*x[74,2] + 700*x[74,3] + 700*x[74,4] + 700*x[74,5] + 
+	500*x[75,1] + 500*x[75,2] + 500*x[75,3] + 500*x[75,4] + 500*x[75,5] + 
+	200*x[76,1] + 200*x[76,2] + 200*x[76,3] + 200*x[76,4] + 200*x[76,5] + 
+	200*x[77,1] + 200*x[77,2] + 200*x[77,3] + 200*x[77,4] + 200*x[77,5] + 
+	500*x[78,1] + 500*x[78,2] + 500*x[78,3] + 500*x[78,4] + 500*x[78,5] + 
+	600*x[79,1] + 600*x[79,2] + 600*x[79,3] + 600*x[79,4] + 600*x[79,5] + 
+	100*x[80,1] + 100*x[80,2] + 100*x[80,3] + 100*x[80,4] + 100*x[80,5] + 
+	400*x[81,1] + 400*x[81,2] + 400*x[81,3] + 400*x[81,4] + 400*x[81,5] + 
+	200*x[82,1] + 200*x[82,2] + 200*x[82,3] + 200*x[82,4] + 200*x[82,5] + 
+	500*x[83,1] + 500*x[83,2] + 500*x[83,3] + 500*x[83,4] + 500*x[83,5] + 
+	300*x[84,1] + 300*x[84,2] + 300*x[84,3] + 300*x[84,4] + 300*x[84,5] + 
+	600*x[85,1] + 600*x[85,2] + 600*x[85,3] + 600*x[85,4] + 600*x[85,5] + 
+	500*x[86,1] + 500*x[86,2] + 500*x[86,3] + 500*x[86,4] + 500*x[86,5] + 
+	700*x[87,1] + 700*x[87,2] + 700*x[87,3] + 700*x[87,4] + 700*x[87,5] + 
+	500*x[88,1] + 500*x[88,2] + 500*x[88,3] + 500*x[88,4] + 500*x[88,5] + 
+	600*x[89,1] + 600*x[89,2] + 600*x[89,3] + 600*x[89,4] + 600*x[89,5] + 
+	200*x[90,1] + 200*x[90,2] + 200*x[90,3] + 200*x[90,4] + 200*x[90,5] + 
+	700*x[91,1] + 700*x[91,2] + 700*x[91,3] + 700*x[91,4] + 700*x[91,5] + 
+	700*x[92,1] + 700*x[92,2] + 700*x[92,3] + 700*x[92,4] + 700*x[92,5] + 
+	200*x[93,1] + 200*x[93,2] + 200*x[93,3] + 200*x[93,4] + 200*x[93,5] + 
+	300*x[94,1] + 300*x[94,2] + 300*x[94,3] + 300*x[94,4] + 300*x[94,5] + 
+	700*x[95,1] + 700*x[95,2] + 700*x[95,3] + 700*x[95,4] + 700*x[95,5] + 
+	100*x[96,1] + 100*x[96,2] + 100*x[96,3] + 100*x[96,4] + 100*x[96,5] + 
+	400*x[97,1] + 400*x[97,2] + 400*x[97,3] + 400*x[97,4] + 400*x[97,5] + 
+	500*x[98,1] + 500*x[98,2] + 500*x[98,3] + 500*x[98,4] + 500*x[98,5] + 
+	700*x[99,1] + 700*x[99,2] + 700*x[99,3] + 700*x[99,4] + 700*x[99,5] + 
+	300*x[100,1] + 300*x[100,2] + 300*x[100,3] + 300*x[100,4] + 
+	300*x[100,5];
+
+Coefficients of x[1,1]:
+	one_vez[1]               1
+	capacity_hospitals[1]    1
+	select_hospitals[1]      1
+	Risk                   200
+
+Coefficients of x[1,2]:
+	one_vez[1]               1
+	capacity_hospitals[2]    1
+	select_hospitals[1]      1
+	Risk                   200
+
+Coefficients of x[1,3]:
+	one_vez[1]               1
+	capacity_hospitals[3]    1
+	Risk                   200
+
+Coefficients of x[1,4]:
+	one_vez[1]               1
+	capacity_hospitals[4]    1
+	Risk                   200
+
+Coefficients of x[1,5]:
+	one_vez[1]               1
+	capacity_hospitals[5]    1
+	Risk                   200
+
+Coefficients of x[2,1]:
+	one_vez[2]               1
+	capacity_hospitals[1]    1
+	select_hospitals[2]      1
+	Risk                   200
+
+Coefficients of x[2,2]:
+	one_vez[2]               1
+	capacity_hospitals[2]    1
+	select_hospitals[2]      1
+	Risk                   200
+
+Coefficients of x[2,3]:
+	one_vez[2]               1
+	capacity_hospitals[3]    1
+	Risk                   200
+
+Coefficients of x[2,4]:
+	one_vez[2]               1
+	capacity_hospitals[4]    1
+	Risk                   200
+
+Coefficients of x[2,5]:
+	one_vez[2]               1
+	capacity_hospitals[5]    1
+	Risk                   200
+
+Coefficients of x[3,1]:
+	one_vez[3]               1
+	capacity_hospitals[1]    1
+	select_hospitals[3]      1
+	Risk                   500
+
+Coefficients of x[3,2]:
+	one_vez[3]               1
+	capacity_hospitals[2]    1
+	select_hospitals[3]      1
+	Risk                   500
+
+Coefficients of x[3,3]:
+	one_vez[3]               1
+	capacity_hospitals[3]    1
+	Risk                   500
+
+Coefficients of x[3,4]:
+	one_vez[3]               1
+	capacity_hospitals[4]    1
+	Risk                   500
+
+Coefficients of x[3,5]:
+	one_vez[3]               1
+	capacity_hospitals[5]    1
+	Risk                   500
+
+Coefficients of x[4,1]:
+	one_vez[4]               1
+	capacity_hospitals[1]    1
+	select_hospitals[4]      1
+	Risk                   600
+
+Coefficients of x[4,2]:
+	one_vez[4]               1
+	capacity_hospitals[2]    1
+	select_hospitals[4]      1
+	Risk                   600
+
+Coefficients of x[4,3]:
+	one_vez[4]               1
+	capacity_hospitals[3]    1
+	Risk                   600
+
+Coefficients of x[4,4]:
+	one_vez[4]               1
+	capacity_hospitals[4]    1
+	Risk                   600
+
+Coefficients of x[4,5]:
+	one_vez[4]               1
+	capacity_hospitals[5]    1
+	Risk                   600
+
+Coefficients of x[5,1]:
+	one_vez[5]               1
+	capacity_hospitals[1]    1
+	select_hospitals[5]      1
+	Risk                   100
+
+Coefficients of x[5,2]:
+	one_vez[5]               1
+	capacity_hospitals[2]    1
+	select_hospitals[5]      1
+	Risk                   100
+
+Coefficients of x[5,3]:
+	one_vez[5]               1
+	capacity_hospitals[3]    1
+	Risk                   100
+
+Coefficients of x[5,4]:
+	one_vez[5]               1
+	capacity_hospitals[4]    1
+	Risk                   100
+
+Coefficients of x[5,5]:
+	one_vez[5]               1
+	capacity_hospitals[5]    1
+	Risk                   100
+
+Coefficients of x[6,1]:
+	one_vez[6]               1
+	capacity_hospitals[1]    1
+	select_hospitals[6]      1
+	Risk                   400
+
+Coefficients of x[6,2]:
+	one_vez[6]               1
+	capacity_hospitals[2]    1
+	select_hospitals[6]      1
+	Risk                   400
+
+Coefficients of x[6,3]:
+	one_vez[6]               1
+	capacity_hospitals[3]    1
+	Risk                   400
+
+Coefficients of x[6,4]:
+	one_vez[6]               1
+	capacity_hospitals[4]    1
+	Risk                   400
+
+Coefficients of x[6,5]:
+	one_vez[6]               1
+	capacity_hospitals[5]    1
+	Risk                   400
+
+Coefficients of x[7,1]:
+	one_vez[7]               1
+	capacity_hospitals[1]    1
+	select_hospitals[7]      1
+	Risk                   400
+
+Coefficients of x[7,2]:
+	one_vez[7]               1
+	capacity_hospitals[2]    1
+	select_hospitals[7]      1
+	Risk                   400
+
+Coefficients of x[7,3]:
+	one_vez[7]               1
+	capacity_hospitals[3]    1
+	Risk                   400
+
+Coefficients of x[7,4]:
+	one_vez[7]               1
+	capacity_hospitals[4]    1
+	Risk                   400
+
+Coefficients of x[7,5]:
+	one_vez[7]               1
+	capacity_hospitals[5]    1
+	Risk                   400
+
+Coefficients of x[8,1]:
+	one_vez[8]               1
+	capacity_hospitals[1]    1
+	select_hospitals[8]      1
+	Risk                   200
+
+Coefficients of x[8,2]:
+	one_vez[8]               1
+	capacity_hospitals[2]    1
+	select_hospitals[8]      1
+	Risk                   200
+
+Coefficients of x[8,3]:
+	one_vez[8]               1
+	capacity_hospitals[3]    1
+	Risk                   200
+
+Coefficients of x[8,4]:
+	one_vez[8]               1
+	capacity_hospitals[4]    1
+	Risk                   200
+
+Coefficients of x[8,5]:
+	one_vez[8]               1
+	capacity_hospitals[5]    1
+	Risk                   200
+
+Coefficients of x[9,1]:
+	one_vez[9]               1
+	capacity_hospitals[1]    1
+	select_hospitals[9]      1
+	Risk                   400
+
+Coefficients of x[9,2]:
+	one_vez[9]               1
+	capacity_hospitals[2]    1
+	select_hospitals[9]      1
+	Risk                   400
+
+Coefficients of x[9,3]:
+	one_vez[9]               1
+	capacity_hospitals[3]    1
+	Risk                   400
+
+Coefficients of x[9,4]:
+	one_vez[9]               1
+	capacity_hospitals[4]    1
+	Risk                   400
+
+Coefficients of x[9,5]:
+	one_vez[9]               1
+	capacity_hospitals[5]    1
+	Risk                   400
+
+Coefficients of x[10,1]:
+	one_vez[10]              1
+	capacity_hospitals[1]    1
+	select_hospitals[10]     1
+	Risk                   600
+
+Coefficients of x[10,2]:
+	one_vez[10]              1
+	capacity_hospitals[2]    1
+	select_hospitals[10]     1
+	Risk                   600
+
+Coefficients of x[10,3]:
+	one_vez[10]              1
+	capacity_hospitals[3]    1
+	Risk                   600
+
+Coefficients of x[10,4]:
+	one_vez[10]              1
+	capacity_hospitals[4]    1
+	Risk                   600
+
+Coefficients of x[10,5]:
+	one_vez[10]              1
+	capacity_hospitals[5]    1
+	Risk                   600
+
+Coefficients of x[11,1]:
+	one_vez[11]              1
+	capacity_hospitals[1]    1
+	select_hospitals[11]     1
+	Risk                   200
+
+Coefficients of x[11,2]:
+	one_vez[11]              1
+	capacity_hospitals[2]    1
+	select_hospitals[11]     1
+	Risk                   200
+
+Coefficients of x[11,3]:
+	one_vez[11]              1
+	capacity_hospitals[3]    1
+	Risk                   200
+
+Coefficients of x[11,4]:
+	one_vez[11]              1
+	capacity_hospitals[4]    1
+	Risk                   200
+
+Coefficients of x[11,5]:
+	one_vez[11]              1
+	capacity_hospitals[5]    1
+	Risk                   200
+
+Coefficients of x[12,1]:
+	one_vez[12]              1
+	capacity_hospitals[1]    1
+	select_hospitals[12]     1
+	Risk                   600
+
+Coefficients of x[12,2]:
+	one_vez[12]              1
+	capacity_hospitals[2]    1
+	select_hospitals[12]     1
+	Risk                   600
+
+Coefficients of x[12,3]:
+	one_vez[12]              1
+	capacity_hospitals[3]    1
+	Risk                   600
+
+Coefficients of x[12,4]:
+	one_vez[12]              1
+	capacity_hospitals[4]    1
+	Risk                   600
+
+Coefficients of x[12,5]:
+	one_vez[12]              1
+	capacity_hospitals[5]    1
+	Risk                   600
+
+Coefficients of x[13,1]:
+	one_vez[13]              1
+	capacity_hospitals[1]    1
+	select_hospitals[13]     1
+	Risk                   300
+
+Coefficients of x[13,2]:
+	one_vez[13]              1
+	capacity_hospitals[2]    1
+	select_hospitals[13]     1
+	Risk                   300
+
+Coefficients of x[13,3]:
+	one_vez[13]              1
+	capacity_hospitals[3]    1
+	Risk                   300
+
+Coefficients of x[13,4]:
+	one_vez[13]              1
+	capacity_hospitals[4]    1
+	Risk                   300
+
+Coefficients of x[13,5]:
+	one_vez[13]              1
+	capacity_hospitals[5]    1
+	Risk                   300
+
+Coefficients of x[14,1]:
+	one_vez[14]              1
+	capacity_hospitals[1]    1
+	select_hospitals[14]     1
+	Risk                   400
+
+Coefficients of x[14,2]:
+	one_vez[14]              1
+	capacity_hospitals[2]    1
+	select_hospitals[14]     1
+	Risk                   400
+
+Coefficients of x[14,3]:
+	one_vez[14]              1
+	capacity_hospitals[3]    1
+	Risk                   400
+
+Coefficients of x[14,4]:
+	one_vez[14]              1
+	capacity_hospitals[4]    1
+	Risk                   400
+
+Coefficients of x[14,5]:
+	one_vez[14]              1
+	capacity_hospitals[5]    1
+	Risk                   400
+
+Coefficients of x[15,1]:
+	one_vez[15]              1
+	capacity_hospitals[1]    1
+	select_hospitals[15]     1
+	Risk                   100
+
+Coefficients of x[15,2]:
+	one_vez[15]              1
+	capacity_hospitals[2]    1
+	select_hospitals[15]     1
+	Risk                   100
+
+Coefficients of x[15,3]:
+	one_vez[15]              1
+	capacity_hospitals[3]    1
+	Risk                   100
+
+Coefficients of x[15,4]:
+	one_vez[15]              1
+	capacity_hospitals[4]    1
+	Risk                   100
+
+Coefficients of x[15,5]:
+	one_vez[15]              1
+	capacity_hospitals[5]    1
+	Risk                   100
+
+Coefficients of x[16,1]:
+	one_vez[16]              1
+	capacity_hospitals[1]    1
+	select_hospitals[16]     1
+	Risk                   300
+
+Coefficients of x[16,2]:
+	one_vez[16]              1
+	capacity_hospitals[2]    1
+	select_hospitals[16]     1
+	Risk                   300
+
+Coefficients of x[16,3]:
+	one_vez[16]              1
+	capacity_hospitals[3]    1
+	Risk                   300
+
+Coefficients of x[16,4]:
+	one_vez[16]              1
+	capacity_hospitals[4]    1
+	Risk                   300
+
+Coefficients of x[16,5]:
+	one_vez[16]              1
+	capacity_hospitals[5]    1
+	Risk                   300
+
+Coefficients of x[17,1]:
+	one_vez[17]              1
+	capacity_hospitals[1]    1
+	select_hospitals[17]     1
+	Risk                   600
+
+Coefficients of x[17,2]:
+	one_vez[17]              1
+	capacity_hospitals[2]    1
+	select_hospitals[17]     1
+	Risk                   600
+
+Coefficients of x[17,3]:
+	one_vez[17]              1
+	capacity_hospitals[3]    1
+	Risk                   600
+
+Coefficients of x[17,4]:
+	one_vez[17]              1
+	capacity_hospitals[4]    1
+	Risk                   600
+
+Coefficients of x[17,5]:
+	one_vez[17]              1
+	capacity_hospitals[5]    1
+	Risk                   600
+
+Coefficients of x[18,1]:
+	one_vez[18]              1
+	capacity_hospitals[1]    1
+	select_hospitals[18]     1
+	Risk                   700
+
+Coefficients of x[18,2]:
+	one_vez[18]              1
+	capacity_hospitals[2]    1
+	select_hospitals[18]     1
+	Risk                   700
+
+Coefficients of x[18,3]:
+	one_vez[18]              1
+	capacity_hospitals[3]    1
+	Risk                   700
+
+Coefficients of x[18,4]:
+	one_vez[18]              1
+	capacity_hospitals[4]    1
+	Risk                   700
+
+Coefficients of x[18,5]:
+	one_vez[18]              1
+	capacity_hospitals[5]    1
+	Risk                   700
+
+Coefficients of x[19,1]:
+	one_vez[19]              1
+	capacity_hospitals[1]    1
+	select_hospitals[19]     1
+	Risk                   600
+
+Coefficients of x[19,2]:
+	one_vez[19]              1
+	capacity_hospitals[2]    1
+	select_hospitals[19]     1
+	Risk                   600
+
+Coefficients of x[19,3]:
+	one_vez[19]              1
+	capacity_hospitals[3]    1
+	Risk                   600
+
+Coefficients of x[19,4]:
+	one_vez[19]              1
+	capacity_hospitals[4]    1
+	Risk                   600
+
+Coefficients of x[19,5]:
+	one_vez[19]              1
+	capacity_hospitals[5]    1
+	Risk                   600
+
+Coefficients of x[20,1]:
+	one_vez[20]              1
+	capacity_hospitals[1]    1
+	select_hospitals[20]     1
+	Risk                   400
+
+Coefficients of x[20,2]:
+	one_vez[20]              1
+	capacity_hospitals[2]    1
+	select_hospitals[20]     1
+	Risk                   400
+
+Coefficients of x[20,3]:
+	one_vez[20]              1
+	capacity_hospitals[3]    1
+	Risk                   400
+
+Coefficients of x[20,4]:
+	one_vez[20]              1
+	capacity_hospitals[4]    1
+	Risk                   400
+
+Coefficients of x[20,5]:
+	one_vez[20]              1
+	capacity_hospitals[5]    1
+	Risk                   400
+
+Coefficients of x[21,1]:
+	one_vez[21]              1
+	capacity_hospitals[1]    1
+	select_hospitals[21]     1
+	Risk                   600
+
+Coefficients of x[21,2]:
+	one_vez[21]              1
+	capacity_hospitals[2]    1
+	select_hospitals[21]     1
+	Risk                   600
+
+Coefficients of x[21,3]:
+	one_vez[21]              1
+	capacity_hospitals[3]    1
+	Risk                   600
+
+Coefficients of x[21,4]:
+	one_vez[21]              1
+	capacity_hospitals[4]    1
+	Risk                   600
+
+Coefficients of x[21,5]:
+	one_vez[21]              1
+	capacity_hospitals[5]    1
+	Risk                   600
+
+Coefficients of x[22,1]:
+	one_vez[22]              1
+	capacity_hospitals[1]    1
+	select_hospitals[22]     1
+	Risk                   600
+
+Coefficients of x[22,2]:
+	one_vez[22]              1
+	capacity_hospitals[2]    1
+	select_hospitals[22]     1
+	Risk                   600
+
+Coefficients of x[22,3]:
+	one_vez[22]              1
+	capacity_hospitals[3]    1
+	Risk                   600
+
+Coefficients of x[22,4]:
+	one_vez[22]              1
+	capacity_hospitals[4]    1
+	Risk                   600
+
+Coefficients of x[22,5]:
+	one_vez[22]              1
+	capacity_hospitals[5]    1
+	Risk                   600
+
+Coefficients of x[23,1]:
+	one_vez[23]              1
+	capacity_hospitals[1]    1
+	select_hospitals[23]     1
+	Risk                   200
+
+Coefficients of x[23,2]:
+	one_vez[23]              1
+	capacity_hospitals[2]    1
+	select_hospitals[23]     1
+	Risk                   200
+
+Coefficients of x[23,3]:
+	one_vez[23]              1
+	capacity_hospitals[3]    1
+	Risk                   200
+
+Coefficients of x[23,4]:
+	one_vez[23]              1
+	capacity_hospitals[4]    1
+	Risk                   200
+
+Coefficients of x[23,5]:
+	one_vez[23]              1
+	capacity_hospitals[5]    1
+	Risk                   200
+
+Coefficients of x[24,1]:
+	one_vez[24]              1
+	capacity_hospitals[1]    1
+	select_hospitals[24]     1
+	Risk                   600
+
+Coefficients of x[24,2]:
+	one_vez[24]              1
+	capacity_hospitals[2]    1
+	select_hospitals[24]     1
+	Risk                   600
+
+Coefficients of x[24,3]:
+	one_vez[24]              1
+	capacity_hospitals[3]    1
+	Risk                   600
+
+Coefficients of x[24,4]:
+	one_vez[24]              1
+	capacity_hospitals[4]    1
+	Risk                   600
+
+Coefficients of x[24,5]:
+	one_vez[24]              1
+	capacity_hospitals[5]    1
+	Risk                   600
+
+Coefficients of x[25,1]:
+	one_vez[25]              1
+	capacity_hospitals[1]    1
+	select_hospitals[25]     1
+	Risk                   600
+
+Coefficients of x[25,2]:
+	one_vez[25]              1
+	capacity_hospitals[2]    1
+	select_hospitals[25]     1
+	Risk                   600
+
+Coefficients of x[25,3]:
+	one_vez[25]              1
+	capacity_hospitals[3]    1
+	Risk                   600
+
+Coefficients of x[25,4]:
+	one_vez[25]              1
+	capacity_hospitals[4]    1
+	Risk                   600
+
+Coefficients of x[25,5]:
+	one_vez[25]              1
+	capacity_hospitals[5]    1
+	Risk                   600
+
+Coefficients of x[26,1]:
+	one_vez[26]              1
+	capacity_hospitals[1]    1
+	select_hospitals[26]     1
+	Risk                   600
+
+Coefficients of x[26,2]:
+	one_vez[26]              1
+	capacity_hospitals[2]    1
+	select_hospitals[26]     1
+	Risk                   600
+
+Coefficients of x[26,3]:
+	one_vez[26]              1
+	capacity_hospitals[3]    1
+	Risk                   600
+
+Coefficients of x[26,4]:
+	one_vez[26]              1
+	capacity_hospitals[4]    1
+	Risk                   600
+
+Coefficients of x[26,5]:
+	one_vez[26]              1
+	capacity_hospitals[5]    1
+	Risk                   600
+
+Coefficients of x[27,1]:
+	one_vez[27]              1
+	capacity_hospitals[1]    1
+	select_hospitals[27]     1
+	Risk                   300
+
+Coefficients of x[27,2]:
+	one_vez[27]              1
+	capacity_hospitals[2]    1
+	select_hospitals[27]     1
+	Risk                   300
+
+Coefficients of x[27,3]:
+	one_vez[27]              1
+	capacity_hospitals[3]    1
+	Risk                   300
+
+Coefficients of x[27,4]:
+	one_vez[27]              1
+	capacity_hospitals[4]    1
+	Risk                   300
+
+Coefficients of x[27,5]:
+	one_vez[27]              1
+	capacity_hospitals[5]    1
+	Risk                   300
+
+Coefficients of x[28,1]:
+	one_vez[28]              1
+	capacity_hospitals[1]    1
+	select_hospitals[28]     1
+	Risk                   400
+
+Coefficients of x[28,2]:
+	one_vez[28]              1
+	capacity_hospitals[2]    1
+	select_hospitals[28]     1
+	Risk                   400
+
+Coefficients of x[28,3]:
+	one_vez[28]              1
+	capacity_hospitals[3]    1
+	Risk                   400
+
+Coefficients of x[28,4]:
+	one_vez[28]              1
+	capacity_hospitals[4]    1
+	Risk                   400
+
+Coefficients of x[28,5]:
+	one_vez[28]              1
+	capacity_hospitals[5]    1
+	Risk                   400
+
+Coefficients of x[29,1]:
+	one_vez[29]              1
+	capacity_hospitals[1]    1
+	select_hospitals[29]     1
+	Risk                   700
+
+Coefficients of x[29,2]:
+	one_vez[29]              1
+	capacity_hospitals[2]    1
+	select_hospitals[29]     1
+	Risk                   700
+
+Coefficients of x[29,3]:
+	one_vez[29]              1
+	capacity_hospitals[3]    1
+	Risk                   700
+
+Coefficients of x[29,4]:
+	one_vez[29]              1
+	capacity_hospitals[4]    1
+	Risk                   700
+
+Coefficients of x[29,5]:
+	one_vez[29]              1
+	capacity_hospitals[5]    1
+	Risk                   700
+
+Coefficients of x[30,1]:
+	one_vez[30]              1
+	capacity_hospitals[1]    1
+	select_hospitals[30]     1
+	Risk                   100
+
+Coefficients of x[30,2]:
+	one_vez[30]              1
+	capacity_hospitals[2]    1
+	select_hospitals[30]     1
+	Risk                   100
+
+Coefficients of x[30,3]:
+	one_vez[30]              1
+	capacity_hospitals[3]    1
+	Risk                   100
+
+Coefficients of x[30,4]:
+	one_vez[30]              1
+	capacity_hospitals[4]    1
+	Risk                   100
+
+Coefficients of x[30,5]:
+	one_vez[30]              1
+	capacity_hospitals[5]    1
+	Risk                   100
+
+Coefficients of x[31,1]:
+	one_vez[31]              1
+	capacity_hospitals[1]    1
+	select_hospitals[31]     1
+	Risk                   100
+
+Coefficients of x[31,2]:
+	one_vez[31]              1
+	capacity_hospitals[2]    1
+	Risk                   100
+
+Coefficients of x[31,3]:
+	one_vez[31]              1
+	capacity_hospitals[3]    1
+	select_hospitals[31]     1
+	Risk                   100
+
+Coefficients of x[31,4]:
+	one_vez[31]              1
+	capacity_hospitals[4]    1
+	Risk                   100
+
+Coefficients of x[31,5]:
+	one_vez[31]              1
+	capacity_hospitals[5]    1
+	Risk                   100
+
+Coefficients of x[32,1]:
+	one_vez[32]              1
+	capacity_hospitals[1]    1
+	select_hospitals[32]     1
+	Risk                   400
+
+Coefficients of x[32,2]:
+	one_vez[32]              1
+	capacity_hospitals[2]    1
+	Risk                   400
+
+Coefficients of x[32,3]:
+	one_vez[32]              1
+	capacity_hospitals[3]    1
+	select_hospitals[32]     1
+	Risk                   400
+
+Coefficients of x[32,4]:
+	one_vez[32]              1
+	capacity_hospitals[4]    1
+	Risk                   400
+
+Coefficients of x[32,5]:
+	one_vez[32]              1
+	capacity_hospitals[5]    1
+	Risk                   400
+
+Coefficients of x[33,1]:
+	one_vez[33]              1
+	capacity_hospitals[1]    1
+	select_hospitals[33]     1
+	Risk                   200
+
+Coefficients of x[33,2]:
+	one_vez[33]              1
+	capacity_hospitals[2]    1
+	Risk                   200
+
+Coefficients of x[33,3]:
+	one_vez[33]              1
+	capacity_hospitals[3]    1
+	select_hospitals[33]     1
+	Risk                   200
+
+Coefficients of x[33,4]:
+	one_vez[33]              1
+	capacity_hospitals[4]    1
+	Risk                   200
+
+Coefficients of x[33,5]:
+	one_vez[33]              1
+	capacity_hospitals[5]    1
+	Risk                   200
+
+Coefficients of x[34,1]:
+	one_vez[34]              1
+	capacity_hospitals[1]    1
+	select_hospitals[34]     1
+	Risk                   400
+
+Coefficients of x[34,2]:
+	one_vez[34]              1
+	capacity_hospitals[2]    1
+	Risk                   400
+
+Coefficients of x[34,3]:
+	one_vez[34]              1
+	capacity_hospitals[3]    1
+	select_hospitals[34]     1
+	Risk                   400
+
+Coefficients of x[34,4]:
+	one_vez[34]              1
+	capacity_hospitals[4]    1
+	Risk                   400
+
+Coefficients of x[34,5]:
+	one_vez[34]              1
+	capacity_hospitals[5]    1
+	Risk                   400
+
+Coefficients of x[35,1]:
+	one_vez[35]              1
+	capacity_hospitals[1]    1
+	select_hospitals[35]     1
+	Risk                   600
+
+Coefficients of x[35,2]:
+	one_vez[35]              1
+	capacity_hospitals[2]    1
+	Risk                   600
+
+Coefficients of x[35,3]:
+	one_vez[35]              1
+	capacity_hospitals[3]    1
+	select_hospitals[35]     1
+	Risk                   600
+
+Coefficients of x[35,4]:
+	one_vez[35]              1
+	capacity_hospitals[4]    1
+	Risk                   600
+
+Coefficients of x[35,5]:
+	one_vez[35]              1
+	capacity_hospitals[5]    1
+	Risk                   600
+
+Coefficients of x[36,1]:
+	one_vez[36]              1
+	capacity_hospitals[1]    1
+	select_hospitals[36]     1
+	Risk                   500
+
+Coefficients of x[36,2]:
+	one_vez[36]              1
+	capacity_hospitals[2]    1
+	Risk                   500
+
+Coefficients of x[36,3]:
+	one_vez[36]              1
+	capacity_hospitals[3]    1
+	select_hospitals[36]     1
+	Risk                   500
+
+Coefficients of x[36,4]:
+	one_vez[36]              1
+	capacity_hospitals[4]    1
+	Risk                   500
+
+Coefficients of x[36,5]:
+	one_vez[36]              1
+	capacity_hospitals[5]    1
+	Risk                   500
+
+Coefficients of x[37,1]:
+	one_vez[37]              1
+	capacity_hospitals[1]    1
+	select_hospitals[37]     1
+	Risk                   500
+
+Coefficients of x[37,2]:
+	one_vez[37]              1
+	capacity_hospitals[2]    1
+	Risk                   500
+
+Coefficients of x[37,3]:
+	one_vez[37]              1
+	capacity_hospitals[3]    1
+	select_hospitals[37]     1
+	Risk                   500
+
+Coefficients of x[37,4]:
+	one_vez[37]              1
+	capacity_hospitals[4]    1
+	Risk                   500
+
+Coefficients of x[37,5]:
+	one_vez[37]              1
+	capacity_hospitals[5]    1
+	Risk                   500
+
+Coefficients of x[38,1]:
+	one_vez[38]              1
+	capacity_hospitals[1]    1
+	select_hospitals[38]     1
+	Risk                   300
+
+Coefficients of x[38,2]:
+	one_vez[38]              1
+	capacity_hospitals[2]    1
+	Risk                   300
+
+Coefficients of x[38,3]:
+	one_vez[38]              1
+	capacity_hospitals[3]    1
+	select_hospitals[38]     1
+	Risk                   300
+
+Coefficients of x[38,4]:
+	one_vez[38]              1
+	capacity_hospitals[4]    1
+	Risk                   300
+
+Coefficients of x[38,5]:
+	one_vez[38]              1
+	capacity_hospitals[5]    1
+	Risk                   300
+
+Coefficients of x[39,1]:
+	one_vez[39]              1
+	capacity_hospitals[1]    1
+	select_hospitals[39]     1
+	Risk                   500
+
+Coefficients of x[39,2]:
+	one_vez[39]              1
+	capacity_hospitals[2]    1
+	Risk                   500
+
+Coefficients of x[39,3]:
+	one_vez[39]              1
+	capacity_hospitals[3]    1
+	select_hospitals[39]     1
+	Risk                   500
+
+Coefficients of x[39,4]:
+	one_vez[39]              1
+	capacity_hospitals[4]    1
+	Risk                   500
+
+Coefficients of x[39,5]:
+	one_vez[39]              1
+	capacity_hospitals[5]    1
+	Risk                   500
+
+Coefficients of x[40,1]:
+	one_vez[40]              1
+	capacity_hospitals[1]    1
+	select_hospitals[40]     1
+	Risk                   100
+
+Coefficients of x[40,2]:
+	one_vez[40]              1
+	capacity_hospitals[2]    1
+	Risk                   100
+
+Coefficients of x[40,3]:
+	one_vez[40]              1
+	capacity_hospitals[3]    1
+	select_hospitals[40]     1
+	Risk                   100
+
+Coefficients of x[40,4]:
+	one_vez[40]              1
+	capacity_hospitals[4]    1
+	Risk                   100
+
+Coefficients of x[40,5]:
+	one_vez[40]              1
+	capacity_hospitals[5]    1
+	Risk                   100
+
+Coefficients of x[41,1]:
+	one_vez[41]              1
+	capacity_hospitals[1]    1
+	select_hospitals[41]     1
+	Risk                   500
+
+Coefficients of x[41,2]:
+	one_vez[41]              1
+	capacity_hospitals[2]    1
+	Risk                   500
+
+Coefficients of x[41,3]:
+	one_vez[41]              1
+	capacity_hospitals[3]    1
+	select_hospitals[41]     1
+	Risk                   500
+
+Coefficients of x[41,4]:
+	one_vez[41]              1
+	capacity_hospitals[4]    1
+	Risk                   500
+
+Coefficients of x[41,5]:
+	one_vez[41]              1
+	capacity_hospitals[5]    1
+	Risk                   500
+
+Coefficients of x[42,1]:
+	one_vez[42]              1
+	capacity_hospitals[1]    1
+	select_hospitals[42]     1
+	Risk                   600
+
+Coefficients of x[42,2]:
+	one_vez[42]              1
+	capacity_hospitals[2]    1
+	Risk                   600
+
+Coefficients of x[42,3]:
+	one_vez[42]              1
+	capacity_hospitals[3]    1
+	select_hospitals[42]     1
+	Risk                   600
+
+Coefficients of x[42,4]:
+	one_vez[42]              1
+	capacity_hospitals[4]    1
+	Risk                   600
+
+Coefficients of x[42,5]:
+	one_vez[42]              1
+	capacity_hospitals[5]    1
+	Risk                   600
+
+Coefficients of x[43,1]:
+	one_vez[43]              1
+	capacity_hospitals[1]    1
+	select_hospitals[43]     1
+	Risk                   300
+
+Coefficients of x[43,2]:
+	one_vez[43]              1
+	capacity_hospitals[2]    1
+	Risk                   300
+
+Coefficients of x[43,3]:
+	one_vez[43]              1
+	capacity_hospitals[3]    1
+	select_hospitals[43]     1
+	Risk                   300
+
+Coefficients of x[43,4]:
+	one_vez[43]              1
+	capacity_hospitals[4]    1
+	Risk                   300
+
+Coefficients of x[43,5]:
+	one_vez[43]              1
+	capacity_hospitals[5]    1
+	Risk                   300
+
+Coefficients of x[44,1]:
+	one_vez[44]              1
+	capacity_hospitals[1]    1
+	select_hospitals[44]     1
+	Risk                   300
+
+Coefficients of x[44,2]:
+	one_vez[44]              1
+	capacity_hospitals[2]    1
+	Risk                   300
+
+Coefficients of x[44,3]:
+	one_vez[44]              1
+	capacity_hospitals[3]    1
+	select_hospitals[44]     1
+	Risk                   300
+
+Coefficients of x[44,4]:
+	one_vez[44]              1
+	capacity_hospitals[4]    1
+	Risk                   300
+
+Coefficients of x[44,5]:
+	one_vez[44]              1
+	capacity_hospitals[5]    1
+	Risk                   300
+
+Coefficients of x[45,1]:
+	one_vez[45]              1
+	capacity_hospitals[1]    1
+	select_hospitals[45]     1
+	Risk                   100
+
+Coefficients of x[45,2]:
+	one_vez[45]              1
+	capacity_hospitals[2]    1
+	Risk                   100
+
+Coefficients of x[45,3]:
+	one_vez[45]              1
+	capacity_hospitals[3]    1
+	select_hospitals[45]     1
+	Risk                   100
+
+Coefficients of x[45,4]:
+	one_vez[45]              1
+	capacity_hospitals[4]    1
+	Risk                   100
+
+Coefficients of x[45,5]:
+	one_vez[45]              1
+	capacity_hospitals[5]    1
+	Risk                   100
+
+Coefficients of x[46,1]:
+	one_vez[46]              1
+	capacity_hospitals[1]    1
+	select_hospitals[46]     1
+	Risk                   700
+
+Coefficients of x[46,2]:
+	one_vez[46]              1
+	capacity_hospitals[2]    1
+	Risk                   700
+
+Coefficients of x[46,3]:
+	one_vez[46]              1
+	capacity_hospitals[3]    1
+	select_hospitals[46]     1
+	Risk                   700
+
+Coefficients of x[46,4]:
+	one_vez[46]              1
+	capacity_hospitals[4]    1
+	Risk                   700
+
+Coefficients of x[46,5]:
+	one_vez[46]              1
+	capacity_hospitals[5]    1
+	Risk                   700
+
+Coefficients of x[47,1]:
+	one_vez[47]              1
+	capacity_hospitals[1]    1
+	select_hospitals[47]     1
+	Risk                   500
+
+Coefficients of x[47,2]:
+	one_vez[47]              1
+	capacity_hospitals[2]    1
+	Risk                   500
+
+Coefficients of x[47,3]:
+	one_vez[47]              1
+	capacity_hospitals[3]    1
+	select_hospitals[47]     1
+	Risk                   500
+
+Coefficients of x[47,4]:
+	one_vez[47]              1
+	capacity_hospitals[4]    1
+	Risk                   500
+
+Coefficients of x[47,5]:
+	one_vez[47]              1
+	capacity_hospitals[5]    1
+	Risk                   500
+
+Coefficients of x[48,1]:
+	one_vez[48]              1
+	capacity_hospitals[1]    1
+	select_hospitals[48]     1
+	Risk                   300
+
+Coefficients of x[48,2]:
+	one_vez[48]              1
+	capacity_hospitals[2]    1
+	Risk                   300
+
+Coefficients of x[48,3]:
+	one_vez[48]              1
+	capacity_hospitals[3]    1
+	select_hospitals[48]     1
+	Risk                   300
+
+Coefficients of x[48,4]:
+	one_vez[48]              1
+	capacity_hospitals[4]    1
+	Risk                   300
+
+Coefficients of x[48,5]:
+	one_vez[48]              1
+	capacity_hospitals[5]    1
+	Risk                   300
+
+Coefficients of x[49,1]:
+	one_vez[49]              1
+	capacity_hospitals[1]    1
+	select_hospitals[49]     1
+	Risk                   600
+
+Coefficients of x[49,2]:
+	one_vez[49]              1
+	capacity_hospitals[2]    1
+	Risk                   600
+
+Coefficients of x[49,3]:
+	one_vez[49]              1
+	capacity_hospitals[3]    1
+	select_hospitals[49]     1
+	Risk                   600
+
+Coefficients of x[49,4]:
+	one_vez[49]              1
+	capacity_hospitals[4]    1
+	Risk                   600
+
+Coefficients of x[49,5]:
+	one_vez[49]              1
+	capacity_hospitals[5]    1
+	Risk                   600
+
+Coefficients of x[50,1]:
+	one_vez[50]              1
+	capacity_hospitals[1]    1
+	select_hospitals[50]     1
+	Risk                   400
+
+Coefficients of x[50,2]:
+	one_vez[50]              1
+	capacity_hospitals[2]    1
+	Risk                   400
+
+Coefficients of x[50,3]:
+	one_vez[50]              1
+	capacity_hospitals[3]    1
+	select_hospitals[50]     1
+	Risk                   400
+
+Coefficients of x[50,4]:
+	one_vez[50]              1
+	capacity_hospitals[4]    1
+	Risk                   400
+
+Coefficients of x[50,5]:
+	one_vez[50]              1
+	capacity_hospitals[5]    1
+	Risk                   400
+
+Coefficients of x[51,1]:
+	one_vez[51]              1
+	capacity_hospitals[1]    1
+	select_hospitals[51]     1
+	Risk                   500
+
+Coefficients of x[51,2]:
+	one_vez[51]              1
+	capacity_hospitals[2]    1
+	Risk                   500
+
+Coefficients of x[51,3]:
+	one_vez[51]              1
+	capacity_hospitals[3]    1
+	select_hospitals[51]     1
+	Risk                   500
+
+Coefficients of x[51,4]:
+	one_vez[51]              1
+	capacity_hospitals[4]    1
+	Risk                   500
+
+Coefficients of x[51,5]:
+	one_vez[51]              1
+	capacity_hospitals[5]    1
+	Risk                   500
+
+Coefficients of x[52,1]:
+	one_vez[52]              1
+	capacity_hospitals[1]    1
+	select_hospitals[52]     1
+	Risk                   500
+
+Coefficients of x[52,2]:
+	one_vez[52]              1
+	capacity_hospitals[2]    1
+	Risk                   500
+
+Coefficients of x[52,3]:
+	one_vez[52]              1
+	capacity_hospitals[3]    1
+	select_hospitals[52]     1
+	Risk                   500
+
+Coefficients of x[52,4]:
+	one_vez[52]              1
+	capacity_hospitals[4]    1
+	Risk                   500
+
+Coefficients of x[52,5]:
+	one_vez[52]              1
+	capacity_hospitals[5]    1
+	Risk                   500
+
+Coefficients of x[53,1]:
+	one_vez[53]              1
+	capacity_hospitals[1]    1
+	select_hospitals[53]     1
+	Risk                   700
+
+Coefficients of x[53,2]:
+	one_vez[53]              1
+	capacity_hospitals[2]    1
+	Risk                   700
+
+Coefficients of x[53,3]:
+	one_vez[53]              1
+	capacity_hospitals[3]    1
+	select_hospitals[53]     1
+	Risk                   700
+
+Coefficients of x[53,4]:
+	one_vez[53]              1
+	capacity_hospitals[4]    1
+	Risk                   700
+
+Coefficients of x[53,5]:
+	one_vez[53]              1
+	capacity_hospitals[5]    1
+	Risk                   700
+
+Coefficients of x[54,1]:
+	one_vez[54]              1
+	capacity_hospitals[1]    1
+	select_hospitals[54]     1
+	Risk                   700
+
+Coefficients of x[54,2]:
+	one_vez[54]              1
+	capacity_hospitals[2]    1
+	Risk                   700
+
+Coefficients of x[54,3]:
+	one_vez[54]              1
+	capacity_hospitals[3]    1
+	select_hospitals[54]     1
+	Risk                   700
+
+Coefficients of x[54,4]:
+	one_vez[54]              1
+	capacity_hospitals[4]    1
+	Risk                   700
+
+Coefficients of x[54,5]:
+	one_vez[54]              1
+	capacity_hospitals[5]    1
+	Risk                   700
+
+Coefficients of x[55,1]:
+	one_vez[55]              1
+	capacity_hospitals[1]    1
+	select_hospitals[55]     1
+	Risk                   400
+
+Coefficients of x[55,2]:
+	one_vez[55]              1
+	capacity_hospitals[2]    1
+	Risk                   400
+
+Coefficients of x[55,3]:
+	one_vez[55]              1
+	capacity_hospitals[3]    1
+	select_hospitals[55]     1
+	Risk                   400
+
+Coefficients of x[55,4]:
+	one_vez[55]              1
+	capacity_hospitals[4]    1
+	Risk                   400
+
+Coefficients of x[55,5]:
+	one_vez[55]              1
+	capacity_hospitals[5]    1
+	Risk                   400
+
+Coefficients of x[56,1]:
+	one_vez[56]              1
+	capacity_hospitals[1]    1
+	select_hospitals[56]     1
+	Risk                   100
+
+Coefficients of x[56,2]:
+	one_vez[56]              1
+	capacity_hospitals[2]    1
+	Risk                   100
+
+Coefficients of x[56,3]:
+	one_vez[56]              1
+	capacity_hospitals[3]    1
+	select_hospitals[56]     1
+	Risk                   100
+
+Coefficients of x[56,4]:
+	one_vez[56]              1
+	capacity_hospitals[4]    1
+	Risk                   100
+
+Coefficients of x[56,5]:
+	one_vez[56]              1
+	capacity_hospitals[5]    1
+	Risk                   100
+
+Coefficients of x[57,1]:
+	one_vez[57]              1
+	capacity_hospitals[1]    1
+	select_hospitals[57]     1
+	Risk                   200
+
+Coefficients of x[57,2]:
+	one_vez[57]              1
+	capacity_hospitals[2]    1
+	Risk                   200
+
+Coefficients of x[57,3]:
+	one_vez[57]              1
+	capacity_hospitals[3]    1
+	select_hospitals[57]     1
+	Risk                   200
+
+Coefficients of x[57,4]:
+	one_vez[57]              1
+	capacity_hospitals[4]    1
+	Risk                   200
+
+Coefficients of x[57,5]:
+	one_vez[57]              1
+	capacity_hospitals[5]    1
+	Risk                   200
+
+Coefficients of x[58,1]:
+	one_vez[58]              1
+	capacity_hospitals[1]    1
+	select_hospitals[58]     1
+	Risk                   200
+
+Coefficients of x[58,2]:
+	one_vez[58]              1
+	capacity_hospitals[2]    1
+	Risk                   200
+
+Coefficients of x[58,3]:
+	one_vez[58]              1
+	capacity_hospitals[3]    1
+	select_hospitals[58]     1
+	Risk                   200
+
+Coefficients of x[58,4]:
+	one_vez[58]              1
+	capacity_hospitals[4]    1
+	Risk                   200
+
+Coefficients of x[58,5]:
+	one_vez[58]              1
+	capacity_hospitals[5]    1
+	Risk                   200
+
+Coefficients of x[59,1]:
+	one_vez[59]              1
+	capacity_hospitals[1]    1
+	select_hospitals[59]     1
+	Risk                   400
+
+Coefficients of x[59,2]:
+	one_vez[59]              1
+	capacity_hospitals[2]    1
+	Risk                   400
+
+Coefficients of x[59,3]:
+	one_vez[59]              1
+	capacity_hospitals[3]    1
+	select_hospitals[59]     1
+	Risk                   400
+
+Coefficients of x[59,4]:
+	one_vez[59]              1
+	capacity_hospitals[4]    1
+	Risk                   400
+
+Coefficients of x[59,5]:
+	one_vez[59]              1
+	capacity_hospitals[5]    1
+	Risk                   400
+
+Coefficients of x[60,1]:
+	one_vez[60]              1
+	capacity_hospitals[1]    1
+	select_hospitals[60]     1
+	Risk                   400
+
+Coefficients of x[60,2]:
+	one_vez[60]              1
+	capacity_hospitals[2]    1
+	Risk                   400
+
+Coefficients of x[60,3]:
+	one_vez[60]              1
+	capacity_hospitals[3]    1
+	select_hospitals[60]     1
+	Risk                   400
+
+Coefficients of x[60,4]:
+	one_vez[60]              1
+	capacity_hospitals[4]    1
+	Risk                   400
+
+Coefficients of x[60,5]:
+	one_vez[60]              1
+	capacity_hospitals[5]    1
+	Risk                   400
+
+Coefficients of x[61,1]:
+	one_vez[61]              1
+	capacity_hospitals[1]    1
+	select_hospitals[61]     1
+	Risk                   300
+
+Coefficients of x[61,2]:
+	one_vez[61]              1
+	capacity_hospitals[2]    1
+	Risk                   300
+
+Coefficients of x[61,3]:
+	one_vez[61]              1
+	capacity_hospitals[3]    1
+	Risk                   300
+
+Coefficients of x[61,4]:
+	one_vez[61]              1
+	capacity_hospitals[4]    1
+	select_hospitals[61]     1
+	Risk                   300
+
+Coefficients of x[61,5]:
+	one_vez[61]              1
+	capacity_hospitals[5]    1
+	select_hospitals[61]     1
+	Risk                   300
+
+Coefficients of x[62,1]:
+	one_vez[62]              1
+	capacity_hospitals[1]    1
+	select_hospitals[62]     1
+	Risk                   500
+
+Coefficients of x[62,2]:
+	one_vez[62]              1
+	capacity_hospitals[2]    1
+	Risk                   500
+
+Coefficients of x[62,3]:
+	one_vez[62]              1
+	capacity_hospitals[3]    1
+	Risk                   500
+
+Coefficients of x[62,4]:
+	one_vez[62]              1
+	capacity_hospitals[4]    1
+	select_hospitals[62]     1
+	Risk                   500
+
+Coefficients of x[62,5]:
+	one_vez[62]              1
+	capacity_hospitals[5]    1
+	select_hospitals[62]     1
+	Risk                   500
+
+Coefficients of x[63,1]:
+	one_vez[63]              1
+	capacity_hospitals[1]    1
+	select_hospitals[63]     1
+	Risk                   200
+
+Coefficients of x[63,2]:
+	one_vez[63]              1
+	capacity_hospitals[2]    1
+	Risk                   200
+
+Coefficients of x[63,3]:
+	one_vez[63]              1
+	capacity_hospitals[3]    1
+	Risk                   200
+
+Coefficients of x[63,4]:
+	one_vez[63]              1
+	capacity_hospitals[4]    1
+	select_hospitals[63]     1
+	Risk                   200
+
+Coefficients of x[63,5]:
+	one_vez[63]              1
+	capacity_hospitals[5]    1
+	select_hospitals[63]     1
+	Risk                   200
+
+Coefficients of x[64,1]:
+	one_vez[64]              1
+	capacity_hospitals[1]    1
+	select_hospitals[64]     1
+	Risk                   200
+
+Coefficients of x[64,2]:
+	one_vez[64]              1
+	capacity_hospitals[2]    1
+	Risk                   200
+
+Coefficients of x[64,3]:
+	one_vez[64]              1
+	capacity_hospitals[3]    1
+	Risk                   200
+
+Coefficients of x[64,4]:
+	one_vez[64]              1
+	capacity_hospitals[4]    1
+	select_hospitals[64]     1
+	Risk                   200
+
+Coefficients of x[64,5]:
+	one_vez[64]              1
+	capacity_hospitals[5]    1
+	select_hospitals[64]     1
+	Risk                   200
+
+Coefficients of x[65,1]:
+	one_vez[65]              1
+	capacity_hospitals[1]    1
+	select_hospitals[65]     1
+	Risk                   100
+
+Coefficients of x[65,2]:
+	one_vez[65]              1
+	capacity_hospitals[2]    1
+	Risk                   100
+
+Coefficients of x[65,3]:
+	one_vez[65]              1
+	capacity_hospitals[3]    1
+	Risk                   100
+
+Coefficients of x[65,4]:
+	one_vez[65]              1
+	capacity_hospitals[4]    1
+	select_hospitals[65]     1
+	Risk                   100
+
+Coefficients of x[65,5]:
+	one_vez[65]              1
+	capacity_hospitals[5]    1
+	select_hospitals[65]     1
+	Risk                   100
+
+Coefficients of x[66,1]:
+	one_vez[66]              1
+	capacity_hospitals[1]    1
+	select_hospitals[66]     1
+	Risk                   400
+
+Coefficients of x[66,2]:
+	one_vez[66]              1
+	capacity_hospitals[2]    1
+	Risk                   400
+
+Coefficients of x[66,3]:
+	one_vez[66]              1
+	capacity_hospitals[3]    1
+	Risk                   400
+
+Coefficients of x[66,4]:
+	one_vez[66]              1
+	capacity_hospitals[4]    1
+	select_hospitals[66]     1
+	Risk                   400
+
+Coefficients of x[66,5]:
+	one_vez[66]              1
+	capacity_hospitals[5]    1
+	select_hospitals[66]     1
+	Risk                   400
+
+Coefficients of x[67,1]:
+	one_vez[67]              1
+	capacity_hospitals[1]    1
+	select_hospitals[67]     1
+	Risk                   700
+
+Coefficients of x[67,2]:
+	one_vez[67]              1
+	capacity_hospitals[2]    1
+	Risk                   700
+
+Coefficients of x[67,3]:
+	one_vez[67]              1
+	capacity_hospitals[3]    1
+	Risk                   700
+
+Coefficients of x[67,4]:
+	one_vez[67]              1
+	capacity_hospitals[4]    1
+	select_hospitals[67]     1
+	Risk                   700
+
+Coefficients of x[67,5]:
+	one_vez[67]              1
+	capacity_hospitals[5]    1
+	select_hospitals[67]     1
+	Risk                   700
+
+Coefficients of x[68,1]:
+	one_vez[68]              1
+	capacity_hospitals[1]    1
+	select_hospitals[68]     1
+	Risk                   700
+
+Coefficients of x[68,2]:
+	one_vez[68]              1
+	capacity_hospitals[2]    1
+	Risk                   700
+
+Coefficients of x[68,3]:
+	one_vez[68]              1
+	capacity_hospitals[3]    1
+	Risk                   700
+
+Coefficients of x[68,4]:
+	one_vez[68]              1
+	capacity_hospitals[4]    1
+	select_hospitals[68]     1
+	Risk                   700
+
+Coefficients of x[68,5]:
+	one_vez[68]              1
+	capacity_hospitals[5]    1
+	select_hospitals[68]     1
+	Risk                   700
+
+Coefficients of x[69,1]:
+	one_vez[69]              1
+	capacity_hospitals[1]    1
+	select_hospitals[69]     1
+	Risk                   300
+
+Coefficients of x[69,2]:
+	one_vez[69]              1
+	capacity_hospitals[2]    1
+	Risk                   300
+
+Coefficients of x[69,3]:
+	one_vez[69]              1
+	capacity_hospitals[3]    1
+	Risk                   300
+
+Coefficients of x[69,4]:
+	one_vez[69]              1
+	capacity_hospitals[4]    1
+	select_hospitals[69]     1
+	Risk                   300
+
+Coefficients of x[69,5]:
+	one_vez[69]              1
+	capacity_hospitals[5]    1
+	select_hospitals[69]     1
+	Risk                   300
+
+Coefficients of x[70,1]:
+	one_vez[70]              1
+	capacity_hospitals[1]    1
+	select_hospitals[70]     1
+	Risk                   300
+
+Coefficients of x[70,2]:
+	one_vez[70]              1
+	capacity_hospitals[2]    1
+	Risk                   300
+
+Coefficients of x[70,3]:
+	one_vez[70]              1
+	capacity_hospitals[3]    1
+	Risk                   300
+
+Coefficients of x[70,4]:
+	one_vez[70]              1
+	capacity_hospitals[4]    1
+	select_hospitals[70]     1
+	Risk                   300
+
+Coefficients of x[70,5]:
+	one_vez[70]              1
+	capacity_hospitals[5]    1
+	select_hospitals[70]     1
+	Risk                   300
+
+Coefficients of x[71,1]:
+	one_vez[71]              1
+	capacity_hospitals[1]    1
+	select_hospitals[71]     1
+	Risk                   100
+
+Coefficients of x[71,2]:
+	one_vez[71]              1
+	capacity_hospitals[2]    1
+	Risk                   100
+
+Coefficients of x[71,3]:
+	one_vez[71]              1
+	capacity_hospitals[3]    1
+	Risk                   100
+
+Coefficients of x[71,4]:
+	one_vez[71]              1
+	capacity_hospitals[4]    1
+	select_hospitals[71]     1
+	Risk                   100
+
+Coefficients of x[71,5]:
+	one_vez[71]              1
+	capacity_hospitals[5]    1
+	select_hospitals[71]     1
+	Risk                   100
+
+Coefficients of x[72,1]:
+	one_vez[72]              1
+	capacity_hospitals[1]    1
+	select_hospitals[72]     1
+	Risk                   600
+
+Coefficients of x[72,2]:
+	one_vez[72]              1
+	capacity_hospitals[2]    1
+	Risk                   600
+
+Coefficients of x[72,3]:
+	one_vez[72]              1
+	capacity_hospitals[3]    1
+	Risk                   600
+
+Coefficients of x[72,4]:
+	one_vez[72]              1
+	capacity_hospitals[4]    1
+	select_hospitals[72]     1
+	Risk                   600
+
+Coefficients of x[72,5]:
+	one_vez[72]              1
+	capacity_hospitals[5]    1
+	select_hospitals[72]     1
+	Risk                   600
+
+Coefficients of x[73,1]:
+	one_vez[73]              1
+	capacity_hospitals[1]    1
+	select_hospitals[73]     1
+	Risk                   100
+
+Coefficients of x[73,2]:
+	one_vez[73]              1
+	capacity_hospitals[2]    1
+	Risk                   100
+
+Coefficients of x[73,3]:
+	one_vez[73]              1
+	capacity_hospitals[3]    1
+	Risk                   100
+
+Coefficients of x[73,4]:
+	one_vez[73]              1
+	capacity_hospitals[4]    1
+	select_hospitals[73]     1
+	Risk                   100
+
+Coefficients of x[73,5]:
+	one_vez[73]              1
+	capacity_hospitals[5]    1
+	select_hospitals[73]     1
+	Risk                   100
+
+Coefficients of x[74,1]:
+	one_vez[74]              1
+	capacity_hospitals[1]    1
+	select_hospitals[74]     1
+	Risk                   700
+
+Coefficients of x[74,2]:
+	one_vez[74]              1
+	capacity_hospitals[2]    1
+	Risk                   700
+
+Coefficients of x[74,3]:
+	one_vez[74]              1
+	capacity_hospitals[3]    1
+	Risk                   700
+
+Coefficients of x[74,4]:
+	one_vez[74]              1
+	capacity_hospitals[4]    1
+	select_hospitals[74]     1
+	Risk                   700
+
+Coefficients of x[74,5]:
+	one_vez[74]              1
+	capacity_hospitals[5]    1
+	select_hospitals[74]     1
+	Risk                   700
+
+Coefficients of x[75,1]:
+	one_vez[75]              1
+	capacity_hospitals[1]    1
+	select_hospitals[75]     1
+	Risk                   500
+
+Coefficients of x[75,2]:
+	one_vez[75]              1
+	capacity_hospitals[2]    1
+	Risk                   500
+
+Coefficients of x[75,3]:
+	one_vez[75]              1
+	capacity_hospitals[3]    1
+	Risk                   500
+
+Coefficients of x[75,4]:
+	one_vez[75]              1
+	capacity_hospitals[4]    1
+	select_hospitals[75]     1
+	Risk                   500
+
+Coefficients of x[75,5]:
+	one_vez[75]              1
+	capacity_hospitals[5]    1
+	select_hospitals[75]     1
+	Risk                   500
+
+Coefficients of x[76,1]:
+	one_vez[76]              1
+	capacity_hospitals[1]    1
+	select_hospitals[76]     1
+	Risk                   200
+
+Coefficients of x[76,2]:
+	one_vez[76]              1
+	capacity_hospitals[2]    1
+	Risk                   200
+
+Coefficients of x[76,3]:
+	one_vez[76]              1
+	capacity_hospitals[3]    1
+	Risk                   200
+
+Coefficients of x[76,4]:
+	one_vez[76]              1
+	capacity_hospitals[4]    1
+	select_hospitals[76]     1
+	Risk                   200
+
+Coefficients of x[76,5]:
+	one_vez[76]              1
+	capacity_hospitals[5]    1
+	select_hospitals[76]     1
+	Risk                   200
+
+Coefficients of x[77,1]:
+	one_vez[77]              1
+	capacity_hospitals[1]    1
+	select_hospitals[77]     1
+	Risk                   200
+
+Coefficients of x[77,2]:
+	one_vez[77]              1
+	capacity_hospitals[2]    1
+	Risk                   200
+
+Coefficients of x[77,3]:
+	one_vez[77]              1
+	capacity_hospitals[3]    1
+	Risk                   200
+
+Coefficients of x[77,4]:
+	one_vez[77]              1
+	capacity_hospitals[4]    1
+	select_hospitals[77]     1
+	Risk                   200
+
+Coefficients of x[77,5]:
+	one_vez[77]              1
+	capacity_hospitals[5]    1
+	select_hospitals[77]     1
+	Risk                   200
+
+Coefficients of x[78,1]:
+	one_vez[78]              1
+	capacity_hospitals[1]    1
+	select_hospitals[78]     1
+	Risk                   500
+
+Coefficients of x[78,2]:
+	one_vez[78]              1
+	capacity_hospitals[2]    1
+	Risk                   500
+
+Coefficients of x[78,3]:
+	one_vez[78]              1
+	capacity_hospitals[3]    1
+	Risk                   500
+
+Coefficients of x[78,4]:
+	one_vez[78]              1
+	capacity_hospitals[4]    1
+	select_hospitals[78]     1
+	Risk                   500
+
+Coefficients of x[78,5]:
+	one_vez[78]              1
+	capacity_hospitals[5]    1
+	select_hospitals[78]     1
+	Risk                   500
+
+Coefficients of x[79,1]:
+	one_vez[79]              1
+	capacity_hospitals[1]    1
+	select_hospitals[79]     1
+	Risk                   600
+
+Coefficients of x[79,2]:
+	one_vez[79]              1
+	capacity_hospitals[2]    1
+	Risk                   600
+
+Coefficients of x[79,3]:
+	one_vez[79]              1
+	capacity_hospitals[3]    1
+	Risk                   600
+
+Coefficients of x[79,4]:
+	one_vez[79]              1
+	capacity_hospitals[4]    1
+	select_hospitals[79]     1
+	Risk                   600
+
+Coefficients of x[79,5]:
+	one_vez[79]              1
+	capacity_hospitals[5]    1
+	select_hospitals[79]     1
+	Risk                   600
+
+Coefficients of x[80,1]:
+	one_vez[80]              1
+	capacity_hospitals[1]    1
+	select_hospitals[80]     1
+	Risk                   100
+
+Coefficients of x[80,2]:
+	one_vez[80]              1
+	capacity_hospitals[2]    1
+	Risk                   100
+
+Coefficients of x[80,3]:
+	one_vez[80]              1
+	capacity_hospitals[3]    1
+	Risk                   100
+
+Coefficients of x[80,4]:
+	one_vez[80]              1
+	capacity_hospitals[4]    1
+	select_hospitals[80]     1
+	Risk                   100
+
+Coefficients of x[80,5]:
+	one_vez[80]              1
+	capacity_hospitals[5]    1
+	select_hospitals[80]     1
+	Risk                   100
+
+Coefficients of x[81,1]:
+	one_vez[81]              1
+	capacity_hospitals[1]    1
+	select_hospitals[81]     1
+	Risk                   400
+
+Coefficients of x[81,2]:
+	one_vez[81]              1
+	capacity_hospitals[2]    1
+	Risk                   400
+
+Coefficients of x[81,3]:
+	one_vez[81]              1
+	capacity_hospitals[3]    1
+	Risk                   400
+
+Coefficients of x[81,4]:
+	one_vez[81]              1
+	capacity_hospitals[4]    1
+	select_hospitals[81]     1
+	Risk                   400
+
+Coefficients of x[81,5]:
+	one_vez[81]              1
+	capacity_hospitals[5]    1
+	select_hospitals[81]     1
+	Risk                   400
+
+Coefficients of x[82,1]:
+	one_vez[82]              1
+	capacity_hospitals[1]    1
+	select_hospitals[82]     1
+	Risk                   200
+
+Coefficients of x[82,2]:
+	one_vez[82]              1
+	capacity_hospitals[2]    1
+	Risk                   200
+
+Coefficients of x[82,3]:
+	one_vez[82]              1
+	capacity_hospitals[3]    1
+	Risk                   200
+
+Coefficients of x[82,4]:
+	one_vez[82]              1
+	capacity_hospitals[4]    1
+	select_hospitals[82]     1
+	Risk                   200
+
+Coefficients of x[82,5]:
+	one_vez[82]              1
+	capacity_hospitals[5]    1
+	select_hospitals[82]     1
+	Risk                   200
+
+Coefficients of x[83,1]:
+	one_vez[83]              1
+	capacity_hospitals[1]    1
+	select_hospitals[83]     1
+	Risk                   500
+
+Coefficients of x[83,2]:
+	one_vez[83]              1
+	capacity_hospitals[2]    1
+	Risk                   500
+
+Coefficients of x[83,3]:
+	one_vez[83]              1
+	capacity_hospitals[3]    1
+	Risk                   500
+
+Coefficients of x[83,4]:
+	one_vez[83]              1
+	capacity_hospitals[4]    1
+	select_hospitals[83]     1
+	Risk                   500
+
+Coefficients of x[83,5]:
+	one_vez[83]              1
+	capacity_hospitals[5]    1
+	select_hospitals[83]     1
+	Risk                   500
+
+Coefficients of x[84,1]:
+	one_vez[84]              1
+	capacity_hospitals[1]    1
+	select_hospitals[84]     1
+	Risk                   300
+
+Coefficients of x[84,2]:
+	one_vez[84]              1
+	capacity_hospitals[2]    1
+	Risk                   300
+
+Coefficients of x[84,3]:
+	one_vez[84]              1
+	capacity_hospitals[3]    1
+	Risk                   300
+
+Coefficients of x[84,4]:
+	one_vez[84]              1
+	capacity_hospitals[4]    1
+	select_hospitals[84]     1
+	Risk                   300
+
+Coefficients of x[84,5]:
+	one_vez[84]              1
+	capacity_hospitals[5]    1
+	select_hospitals[84]     1
+	Risk                   300
+
+Coefficients of x[85,1]:
+	one_vez[85]              1
+	capacity_hospitals[1]    1
+	select_hospitals[85]     1
+	Risk                   600
+
+Coefficients of x[85,2]:
+	one_vez[85]              1
+	capacity_hospitals[2]    1
+	Risk                   600
+
+Coefficients of x[85,3]:
+	one_vez[85]              1
+	capacity_hospitals[3]    1
+	Risk                   600
+
+Coefficients of x[85,4]:
+	one_vez[85]              1
+	capacity_hospitals[4]    1
+	select_hospitals[85]     1
+	Risk                   600
+
+Coefficients of x[85,5]:
+	one_vez[85]              1
+	capacity_hospitals[5]    1
+	select_hospitals[85]     1
+	Risk                   600
+
+Coefficients of x[86,1]:
+	one_vez[86]              1
+	capacity_hospitals[1]    1
+	select_hospitals[86]     1
+	Risk                   500
+
+Coefficients of x[86,2]:
+	one_vez[86]              1
+	capacity_hospitals[2]    1
+	Risk                   500
+
+Coefficients of x[86,3]:
+	one_vez[86]              1
+	capacity_hospitals[3]    1
+	Risk                   500
+
+Coefficients of x[86,4]:
+	one_vez[86]              1
+	capacity_hospitals[4]    1
+	select_hospitals[86]     1
+	Risk                   500
+
+Coefficients of x[86,5]:
+	one_vez[86]              1
+	capacity_hospitals[5]    1
+	select_hospitals[86]     1
+	Risk                   500
+
+Coefficients of x[87,1]:
+	one_vez[87]              1
+	capacity_hospitals[1]    1
+	select_hospitals[87]     1
+	Risk                   700
+
+Coefficients of x[87,2]:
+	one_vez[87]              1
+	capacity_hospitals[2]    1
+	Risk                   700
+
+Coefficients of x[87,3]:
+	one_vez[87]              1
+	capacity_hospitals[3]    1
+	Risk                   700
+
+Coefficients of x[87,4]:
+	one_vez[87]              1
+	capacity_hospitals[4]    1
+	select_hospitals[87]     1
+	Risk                   700
+
+Coefficients of x[87,5]:
+	one_vez[87]              1
+	capacity_hospitals[5]    1
+	select_hospitals[87]     1
+	Risk                   700
+
+Coefficients of x[88,1]:
+	one_vez[88]              1
+	capacity_hospitals[1]    1
+	select_hospitals[88]     1
+	Risk                   500
+
+Coefficients of x[88,2]:
+	one_vez[88]              1
+	capacity_hospitals[2]    1
+	Risk                   500
+
+Coefficients of x[88,3]:
+	one_vez[88]              1
+	capacity_hospitals[3]    1
+	Risk                   500
+
+Coefficients of x[88,4]:
+	one_vez[88]              1
+	capacity_hospitals[4]    1
+	select_hospitals[88]     1
+	Risk                   500
+
+Coefficients of x[88,5]:
+	one_vez[88]              1
+	capacity_hospitals[5]    1
+	select_hospitals[88]     1
+	Risk                   500
+
+Coefficients of x[89,1]:
+	one_vez[89]              1
+	capacity_hospitals[1]    1
+	select_hospitals[89]     1
+	Risk                   600
+
+Coefficients of x[89,2]:
+	one_vez[89]              1
+	capacity_hospitals[2]    1
+	Risk                   600
+
+Coefficients of x[89,3]:
+	one_vez[89]              1
+	capacity_hospitals[3]    1
+	Risk                   600
+
+Coefficients of x[89,4]:
+	one_vez[89]              1
+	capacity_hospitals[4]    1
+	select_hospitals[89]     1
+	Risk                   600
+
+Coefficients of x[89,5]:
+	one_vez[89]              1
+	capacity_hospitals[5]    1
+	select_hospitals[89]     1
+	Risk                   600
+
+Coefficients of x[90,1]:
+	one_vez[90]              1
+	capacity_hospitals[1]    1
+	select_hospitals[90]     1
+	Risk                   200
+
+Coefficients of x[90,2]:
+	one_vez[90]              1
+	capacity_hospitals[2]    1
+	Risk                   200
+
+Coefficients of x[90,3]:
+	one_vez[90]              1
+	capacity_hospitals[3]    1
+	Risk                   200
+
+Coefficients of x[90,4]:
+	one_vez[90]              1
+	capacity_hospitals[4]    1
+	select_hospitals[90]     1
+	Risk                   200
+
+Coefficients of x[90,5]:
+	one_vez[90]              1
+	capacity_hospitals[5]    1
+	select_hospitals[90]     1
+	Risk                   200
+
+Coefficients of x[91,1]:
+	one_vez[91]              1
+	capacity_hospitals[1]    1
+	select_hospitals[91]     1
+	Risk                   700
+
+Coefficients of x[91,2]:
+	one_vez[91]              1
+	capacity_hospitals[2]    1
+	Risk                   700
+
+Coefficients of x[91,3]:
+	one_vez[91]              1
+	capacity_hospitals[3]    1
+	Risk                   700
+
+Coefficients of x[91,4]:
+	one_vez[91]              1
+	capacity_hospitals[4]    1
+	select_hospitals[91]     1
+	Risk                   700
+
+Coefficients of x[91,5]:
+	one_vez[91]              1
+	capacity_hospitals[5]    1
+	select_hospitals[91]     1
+	Risk                   700
+
+Coefficients of x[92,1]:
+	one_vez[92]              1
+	capacity_hospitals[1]    1
+	select_hospitals[92]     1
+	Risk                   700
+
+Coefficients of x[92,2]:
+	one_vez[92]              1
+	capacity_hospitals[2]    1
+	Risk                   700
+
+Coefficients of x[92,3]:
+	one_vez[92]              1
+	capacity_hospitals[3]    1
+	Risk                   700
+
+Coefficients of x[92,4]:
+	one_vez[92]              1
+	capacity_hospitals[4]    1
+	select_hospitals[92]     1
+	Risk                   700
+
+Coefficients of x[92,5]:
+	one_vez[92]              1
+	capacity_hospitals[5]    1
+	select_hospitals[92]     1
+	Risk                   700
+
+Coefficients of x[93,1]:
+	one_vez[93]              1
+	capacity_hospitals[1]    1
+	select_hospitals[93]     1
+	Risk                   200
+
+Coefficients of x[93,2]:
+	one_vez[93]              1
+	capacity_hospitals[2]    1
+	Risk                   200
+
+Coefficients of x[93,3]:
+	one_vez[93]              1
+	capacity_hospitals[3]    1
+	Risk                   200
+
+Coefficients of x[93,4]:
+	one_vez[93]              1
+	capacity_hospitals[4]    1
+	select_hospitals[93]     1
+	Risk                   200
+
+Coefficients of x[93,5]:
+	one_vez[93]              1
+	capacity_hospitals[5]    1
+	select_hospitals[93]     1
+	Risk                   200
+
+Coefficients of x[94,1]:
+	one_vez[94]              1
+	capacity_hospitals[1]    1
+	select_hospitals[94]     1
+	Risk                   300
+
+Coefficients of x[94,2]:
+	one_vez[94]              1
+	capacity_hospitals[2]    1
+	Risk                   300
+
+Coefficients of x[94,3]:
+	one_vez[94]              1
+	capacity_hospitals[3]    1
+	Risk                   300
+
+Coefficients of x[94,4]:
+	one_vez[94]              1
+	capacity_hospitals[4]    1
+	select_hospitals[94]     1
+	Risk                   300
+
+Coefficients of x[94,5]:
+	one_vez[94]              1
+	capacity_hospitals[5]    1
+	select_hospitals[94]     1
+	Risk                   300
+
+Coefficients of x[95,1]:
+	one_vez[95]              1
+	capacity_hospitals[1]    1
+	select_hospitals[95]     1
+	Risk                   700
+
+Coefficients of x[95,2]:
+	one_vez[95]              1
+	capacity_hospitals[2]    1
+	Risk                   700
+
+Coefficients of x[95,3]:
+	one_vez[95]              1
+	capacity_hospitals[3]    1
+	Risk                   700
+
+Coefficients of x[95,4]:
+	one_vez[95]              1
+	capacity_hospitals[4]    1
+	select_hospitals[95]     1
+	Risk                   700
+
+Coefficients of x[95,5]:
+	one_vez[95]              1
+	capacity_hospitals[5]    1
+	select_hospitals[95]     1
+	Risk                   700
+
+Coefficients of x[96,1]:
+	one_vez[96]              1
+	capacity_hospitals[1]    1
+	select_hospitals[96]     1
+	Risk                   100
+
+Coefficients of x[96,2]:
+	one_vez[96]              1
+	capacity_hospitals[2]    1
+	Risk                   100
+
+Coefficients of x[96,3]:
+	one_vez[96]              1
+	capacity_hospitals[3]    1
+	Risk                   100
+
+Coefficients of x[96,4]:
+	one_vez[96]              1
+	capacity_hospitals[4]    1
+	select_hospitals[96]     1
+	Risk                   100
+
+Coefficients of x[96,5]:
+	one_vez[96]              1
+	capacity_hospitals[5]    1
+	select_hospitals[96]     1
+	Risk                   100
+
+Coefficients of x[97,1]:
+	one_vez[97]              1
+	capacity_hospitals[1]    1
+	select_hospitals[97]     1
+	Risk                   400
+
+Coefficients of x[97,2]:
+	one_vez[97]              1
+	capacity_hospitals[2]    1
+	Risk                   400
+
+Coefficients of x[97,3]:
+	one_vez[97]              1
+	capacity_hospitals[3]    1
+	Risk                   400
+
+Coefficients of x[97,4]:
+	one_vez[97]              1
+	capacity_hospitals[4]    1
+	select_hospitals[97]     1
+	Risk                   400
+
+Coefficients of x[97,5]:
+	one_vez[97]              1
+	capacity_hospitals[5]    1
+	select_hospitals[97]     1
+	Risk                   400
+
+Coefficients of x[98,1]:
+	one_vez[98]              1
+	capacity_hospitals[1]    1
+	select_hospitals[98]     1
+	Risk                   500
+
+Coefficients of x[98,2]:
+	one_vez[98]              1
+	capacity_hospitals[2]    1
+	Risk                   500
+
+Coefficients of x[98,3]:
+	one_vez[98]              1
+	capacity_hospitals[3]    1
+	Risk                   500
+
+Coefficients of x[98,4]:
+	one_vez[98]              1
+	capacity_hospitals[4]    1
+	select_hospitals[98]     1
+	Risk                   500
+
+Coefficients of x[98,5]:
+	one_vez[98]              1
+	capacity_hospitals[5]    1
+	select_hospitals[98]     1
+	Risk                   500
+
+Coefficients of x[99,1]:
+	one_vez[99]              1
+	capacity_hospitals[1]    1
+	select_hospitals[99]     1
+	Risk                   700
+
+Coefficients of x[99,2]:
+	one_vez[99]              1
+	capacity_hospitals[2]    1
+	Risk                   700
+
+Coefficients of x[99,3]:
+	one_vez[99]              1
+	capacity_hospitals[3]    1
+	Risk                   700
+
+Coefficients of x[99,4]:
+	one_vez[99]              1
+	capacity_hospitals[4]    1
+	select_hospitals[99]     1
+	Risk                   700
+
+Coefficients of x[99,5]:
+	one_vez[99]              1
+	capacity_hospitals[5]    1
+	select_hospitals[99]     1
+	Risk                   700
+
+Coefficients of x[100,1]:
+	one_vez[100]             1
+	capacity_hospitals[1]    1
+	select_hospitals[100]    1
+	Risk                   300
+
+Coefficients of x[100,2]:
+	one_vez[100]             1
+	capacity_hospitals[2]    1
+	Risk                   300
+
+Coefficients of x[100,3]:
+	one_vez[100]             1
+	capacity_hospitals[3]    1
+	Risk                   300
+
+Coefficients of x[100,4]:
+	one_vez[100]             1
+	capacity_hospitals[4]    1
+	select_hospitals[100]    1
+	Risk                   300
+
+Coefficients of x[100,5]:
+	one_vez[100]             1
+	capacity_hospitals[5]    1
+	select_hospitals[100]    1
+	Risk                   300
+
+CPLEX 22.1.1.0: optimal integer solution; objective 34000
+166 MIP simplex iterations
+0 branch-and-bound nodes
+Risk = 34000
+
+x [*,*]
+:     1   2   3   4   5    :=
+1     0   0   0   0   0
+2     0   0   0   0   0
+3     1   0   0   0   0
+4     1   0   0   0   0
+5     0   0   0   0   0
+6     0   1   0   0   0
+7     0   1   0   0   0
+8     0   0   0   0   0
+9     0   0   1   0   0
+10    1   0   0   0   0
+11    0   0   0   0   0
+12    1   0   0   0   0
+13    0   0   0   0   0
+14    0   0   1   0   0
+15    0   0   0   0   0
+16    0   0   0   0   0
+17    1   0   0   0   0
+18    1   0   0   0   0
+19    1   0   0   0   0
+20    0   0   0   1   0
+21    1   0   0   0   0
+22    1   0   0   0   0
+23    0   0   0   0   0
+24    1   0   0   0   0
+25    1   0   0   0   0
+26    1   0   0   0   0
+27    0   0   0   0   0
+28    0   0   0   1   0
+29    1   0   0   0   0
+30    0   0   0   0   0
+31    0   0   0   0   0
+32    0   1   0   0   0
+33    0   0   0   0   0
+34    0   1   0   0   0
+35    0   1   0   0   0
+36    0   1   0   0   0
+37    0   1   0   0   0
+38    0   0   0   0   0
+39    0   1   0   0   0
+40    0   0   0   0   0
+41    0   1   0   0   0
+42    0   1   0   0   0
+43    0   0   0   0   0
+44    0   0   0   0   0
+45    0   0   0   0   0
+46    0   0   1   0   0
+47    0   0   1   0   0
+48    0   0   0   0   0
+49    0   0   1   0   0
+50    0   0   1   0   0
+51    0   0   1   0   0
+52    0   0   1   0   0
+53    0   0   1   0   0
+54    0   0   1   0   0
+55    0   0   0   1   0
+56    0   0   0   0   0
+57    0   0   0   0   0
+58    0   0   0   0   0
+59    0   0   0   1   0
+60    0   0   0   0   1
+61    0   0   0   0   1
+62    0   0   0   0   1
+63    0   0   0   0   0
+64    0   0   0   0   0
+65    0   0   0   0   0
+66    1   0   0   0   0
+67    1   0   0   0   0
+68    1   0   0   0   0
+69    0   0   0   1   0
+70    0   0   0   0   1
+71    0   0   0   0   0
+72    1   0   0   0   0
+73    0   0   0   0   0
+74    1   0   0   0   0
+75    1   0   0   0   0
+76    0   0   0   0   0
+77    0   0   0   0   0
+78    1   0   0   0   0
+79    1   0   0   0   0
+80    0   0   0   0   0
+81    1   0   0   0   0
+82    0   0   0   0   0
+83    1   0   0   0   0
+84    0   0   0   0   1
+85    1   0   0   0   0
+86    1   0   0   0   0
+87    1   0   0   0   0
+88    1   0   0   0   0
+89    1   0   0   0   0
+90    0   0   0   0   0
+91    1   0   0   0   0
+92    1   0   0   0   0
+93    0   0   0   0   0
+94    0   0   0   0   0
+95    1   0   0   0   0
+96    0   0   0   0   0
+97    1   0   0   0   0
+98    1   0   0   0   0
+99    1   0   0   0   0
+100   0   0   0   0   0
+;
+
+_total_solve_time = 0.099456

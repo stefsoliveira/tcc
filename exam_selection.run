@@ -2,13 +2,13 @@
 reset;
 
 #LOAD THE MODEL
-model scheduling2.mod;
+model exam_selection.mod;
 
 #LOAD THE DATA
-data scheduling2.dat;
+data exam_selection.dat;
 
 #DISPLAY THE PROBLEM FORMULATION
-expand Cost, maximum_shifts_perday, schedule;
+expand Risk, x;
 
 #CHANGE THE SOLVER (Optional)
 option solver cplex;
@@ -17,6 +17,4 @@ option solver cplex;
 solve;
 
 #SHOW RESULTS
-display patientassignment, _total_solve_time;
-
-
+display Risk, x, _total_solve_time;
