@@ -1,6 +1,6 @@
 import timeit
 
-def patientScheduling(patients, slots):
+def patientScheduling(patients):
     # Define a função de independência
     def isIndependent(S):
         slotsUsed = set()
@@ -1042,7 +1042,7 @@ costs_patient = [[1,1,10],
 
 beginning = timeit.default_timer()
 
-patientScheduling(costs_patient, 10)
+patientScheduling(costs_patient)
 
 end = timeit.default_timer()
 print('Execution time: %f' % (end - beginning))
