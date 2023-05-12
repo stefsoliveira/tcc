@@ -24,7 +24,8 @@ subject to one_exam_per_patient{i in patients}:
 # maximum no. of tests per hospital
 subject to capacity_hospitals{j in hospitals}:
     sum{i in patients} x[i,j] <= capacity[j];
-    
-# consider the preferable hospital of the patient
-#subject to select_hospitals {i in patients}:
-	#sum{j in hospitals} x[i,j] * preferable_hospital[i,j] <= 1;
+
+	
+	
+	
+	
